@@ -44,7 +44,7 @@ jobs:
     name: Build und Push Docker Images
     runs-on: ubuntu-latest  
     needs: quality
-    if: github.ref == 'refs/heads/main'
+    #if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout repository
